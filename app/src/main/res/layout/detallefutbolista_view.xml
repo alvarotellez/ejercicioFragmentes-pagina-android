@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
     <!--Nombre del futbolista-->
     <TextView
-        android:id="@+id/nombreFutbolista"
+        android:id="@+id/detalleNombreFutbolista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -16,14 +16,14 @@
         android:id="@+id/equipo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/nombreFutbolista"
+        android:layout_alignBottom="@id/detalleNombreFutbolista"
         />
     <!--Foto del futbolista-->
     <ImageView
         android:id="@+id/fotoFutbolista"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nombreFutbolista"
+        android:layout_below="@+id/detalleNombreFutbolista"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="18dp"
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/fotoFutbolista"
         android:layout_alignTop="@id/fotoFutbolista"
-        android:layout_below="@+id/nombreFutbolista"
+        android:layout_below="@+id/detalleNombreFutbolista"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="18dp"

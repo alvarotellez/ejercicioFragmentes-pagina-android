@@ -6,6 +6,7 @@ package es.iesnervion.atellez.ejerciciofragments;
 //Esta clase guarda un array con los jugadores
 public class jugadores {
 
+
     public static futbolista [] jugadores = {
             new futbolista(1,R.drawable.anonimo,"Sergio Agüero","Manchester City", R.drawable.argentina),
             new futbolista(2,R.drawable.anonimo,"Gareth Bale","Real Madrid",R.drawable.wales),
