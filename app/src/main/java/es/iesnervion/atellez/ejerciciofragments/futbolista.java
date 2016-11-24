@@ -3,7 +3,7 @@ package es.iesnervion.atellez.ejerciciofragments;
 /**
  * Created by atellez on 24/11/16.
  */
-
+//Clase que crea objetos futbolista
 public class futbolista {
     private int id;
     private int fotoFutbolista;

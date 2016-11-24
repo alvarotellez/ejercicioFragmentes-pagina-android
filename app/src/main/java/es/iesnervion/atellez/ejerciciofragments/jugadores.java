@@ -3,7 +3,7 @@ package es.iesnervion.atellez.ejerciciofragments;
 /**
  * Created by atellez on 24/11/16.
  */
-
+//Esta clase guarda un array con los jugadores
 public class jugadores {
 
     public static futbolista [] jugadores = {
