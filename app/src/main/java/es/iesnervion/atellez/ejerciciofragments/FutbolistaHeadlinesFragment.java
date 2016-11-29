@@ -12,7 +12,7 @@ import android.widget.ListView;
  * Created by atellez on 24/11/16.
  */
 
-public class FutbolistaFragment extends ListFragment {
+public class FutbolistaHeadlinesFragment extends ListFragment {
     OnHeadlineSelectedListener mCallback;
 
     public interface OnHeadlineSelectedListener{
@@ -24,7 +24,7 @@ public class FutbolistaFragment extends ListFragment {
         int layout = Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB ?
                 android.R.layout.simple_list_item_activated_1 : android.R.layout.simple_list_item_1;
 
-        setListAdapter(new ArrayAdapter<String>(getActivity(), layout, Ipsum.Headlines));
+        setListAdapter(new ArrayAdapter<String>(getActivity(), layout, jugadores.Headlines));
     }
 
     public void onStart(){

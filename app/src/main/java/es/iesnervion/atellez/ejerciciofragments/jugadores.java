@@ -1,5 +1,8 @@
 package es.iesnervion.atellez.ejerciciofragments;
 
+import java.lang.reflect.Array;
+import java.util.List;
+
 /**
  * Created by atellez on 24/11/16.
  */
@@ -7,7 +10,12 @@ package es.iesnervion.atellez.ejerciciofragments;
 public class jugadores {
 
 
-    public static futbolista [] jugadores = {
+    static String [] Headlines = {
+            "Sergio Agüero",
+            "Gareth Bale"
+    };
+
+    public static futbolista [] arrayJugadores = {
             new futbolista(1,R.drawable.anonimo,"Sergio Agüero","Manchester City", R.drawable.argentina),
             new futbolista(2,R.drawable.anonimo,"Gareth Bale","Real Madrid",R.drawable.wales),
             new futbolista(3,R.drawable.anonimo,"Gianluigi Buffon","Juventus",R.drawable.italy),
@@ -24,4 +32,5 @@ public class jugadores {
             new futbolista(14,R.drawable.anonimo,"Neymar Jr","FCB Barcelona",R.drawable.brazil),
             new futbolista(15,R.drawable.anonimo,"Sergio Ramos","Real Madrid",R.drawable.spain)
     };
+    
 }

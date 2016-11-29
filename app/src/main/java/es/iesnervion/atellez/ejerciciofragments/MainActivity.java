@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class MainActivity extends FragmentActivity
-        implements  HeadlinesFragment.OnHeadlineSelectedListener{
+        implements  FutbolistaHeadlinesFragment.OnHeadlineSelectedListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class MainActivity extends FragmentActivity
                 return;
             }
 
-            HeadlinesFragment firstFragment = new HeadlinesFragment();
+            FutbolistaHeadlinesFragment firstFragment = new FutbolistaHeadlinesFragment();
 
             firstFragment.setArguments(getIntent().getExtras());
 
@@ -27,7 +27,7 @@ public class MainActivity extends FragmentActivity
     }
 
     @Override
-    public void onArticleSelected(int position) {
+    public void onFutbolistaSelected(int position) {
         ArticleFragment articleFrag = (ArticleFragment) getFragmentManager().findFragmentById(R.id.article_fragment);
 
         if(articleFrag != null){
