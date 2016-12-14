@@ -12,7 +12,20 @@ public class jugadores {
 
     static String [] Headlines = {
             "Sergio Agüero",
-            "Gareth Bale"
+            "Gareth Bale",
+            "Gianluigi Buffon",
+            "Kevin De Bruyne",
+            "Paulo Dybala",
+            "Diego Godin",
+            "Antoine Griezmann",
+            "Gonzalo Higuain",
+            "Andres Iniesta",
+            "Koke Resurrecion",
+            "Cristiano Ronaldo",
+            "Leo Messi",
+            "Luis Suarez",
+            "Neymar Jr",
+            "Sergio Ramos"
     };
 
     public static futbolista [] arrayJugadores = {
